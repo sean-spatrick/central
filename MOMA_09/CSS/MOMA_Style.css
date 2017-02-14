@@ -1,0 +1,182 @@
+/* CSS Document */
+
+body {
+    background-color: #F1F1F1;
+} /* END BODY */
+
+p {
+    font-family: sans-serif;
+} /* END P */
+
+::-webkit-scrollbar { 
+    display: none; 
+} /* END SCOLLBAR */
+
+div.container { 
+    height: 494px;
+    width: 1763px;
+    position: absolute;
+    margin: -247px 0 0 -898px;
+    left: 52%;
+    top: 55%;
+} /* END DIV.CONTAINER */
+div.icon { 
+    height: 50%;
+   
+    top: 55%;
+}
+div.logo {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: -50% 0 0 -50%;
+    left: 50%;
+    top: 50%;
+} /* END DIV.LOGO */
+
+div.gallery {
+    height: 72%;
+    width: 92%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    overflow-y: scroll;
+    
+} /* END DIV.GALLERY */
+
+img.picture {
+   padding-bottom: 2%;
+    width: 100%;
+    opacity: 1;
+    cursor: url(../Images/Assets/Curse.png), auto; 
+} /* END IMG.PICTURE */
+
+.picture:hover {
+    opacity: 0.6;
+}
+
+div.Header {
+    background-color: #F1F1F1;
+    height: 15%;
+} /* END DIV.HEADER */
+
+/*div.RTab {
+    background-color: #c90d0d;
+    height: 50%;
+    margin-top: 8%;
+    width: 2%;
+    float: left;
+} /* END DIV.RTAB */
+
+div.LTab {
+    background-color: #c90d0d;
+    height: 100%;
+    margin-top: ;
+    width: 4%;
+    float: left;
+} /* END DIV.LTAB */
+
+div.Col1 {
+    height: 100%;
+    width: 32.667%;
+    float: left;
+} /* END DIV.COL1 */
+
+div.Col2 {
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 32.667%;
+    float: left;
+} /* END DIV.COL2 */
+
+div.Col3 {
+    height: 100%;
+    width: 32.667%;
+    float: left;
+} /* END DIV.COL3 */
+
+div.Gcontainer {
+    background-color: #F1F1F1;
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%
+} /* END DIV.GCONTAINER */
+
+img.top {
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 1%;
+} /* END IMG.TOP */
+
+img.ps1 {
+    height: 50%;
+    margin-top: 2.5%;
+    margin-left: 1%;
+    margin-right: 2%;
+} /* END IMG.PS1 */
+ <style>
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    font-family: sans-serif;
+    color:black;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    =
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>      
+

@@ -1,0 +1,27 @@
+ 
+//html { 
+  //background-color: black;
+}
+.seanlogo{
+    padding-top: 5%;
+    
+}
+.header{
+    position: fixed;
+    height: 5%;
+    color: darkgrey;
+    border-bottom-color: black;
+    
+        
+}
+.content{
+    height: 500px;
+}
+.subcontent{ 20%;}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    color: black; 
+    border-bottom: grey;
+}
