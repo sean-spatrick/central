@@ -1,5 +1,5 @@
 html{
-    background-color: oldlace;
+    background-color: #edf0f4;
 }
 .header{
     position: absolute;
@@ -7,7 +7,7 @@ html{
     height:8%;
    background-color: black;
     border-bottom-color: darkgrey;
-    border-bottom: 3%;
+    border-bottom: 10%;
     
     
 }
@@ -17,11 +17,16 @@ html{
     
 }
 .space{
-    height:10px;
+    height:5%;
 }
     
     .logosize{
     height:5px;
      
     }
+
+.wipImage{
+    height: 100%;
+    width: auto;
+}
 

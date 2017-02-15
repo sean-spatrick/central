@@ -1092,7 +1092,7 @@
 }
 
 .green {
-  background-color: #4CAF50 !important;
+  background-color: #006837 !important;
 }
 
 .green-text {
@@ -4004,7 +4004,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: white;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4062,6 +4062,8 @@ nav .button-collapse i {
 }
 
 nav .brand-logo {
+
+height:5px;
   position: absolute;
   color: #fff;
   display: inline-block;
@@ -4666,14 +4668,14 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
+  color:#00685b;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
+  color: #4ec44e;
 }
 
 .card .card-reveal {
