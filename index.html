@@ -26,13 +26,18 @@
     </nav>
   </div>
     
+    
    <div class="parallax-container">
     <div class="parallax"><img src="assets/Comp-1%20copy.gif"></div>
   </div>
     
 <div class="section white">   
+    
     <div class='container'>
         <div class="row">
+    <div class="fixed-action-btn">
+       <a class="waves-effect waves-light btn-floating btn-large green" href="#modal1"> C.V.</a>
+        </div>
         <div class="space"></div>
         </div>
         <div clas="row">
@@ -48,8 +53,8 @@
             </p>
             </div>    
         </div>
-        </div>        
-       
+        </div>
+        
         <div class='row'>
             
             <div class="col s6">
@@ -69,7 +74,7 @@
                     </p>    
                 </div>
                 <div class="card-action">
-                    <a href="MOMA_09/index.html">Take me to MOMA*</a>
+                    <a href="MOMA_09/index.html" class="btn-flat">Take me to MOMA*</a>
                 </div>
             </div>
                     
@@ -93,14 +98,63 @@
             </div> 
         </div>
         <div class="row">
-        
+            <div class="col s4">
+                 <div class='card hoverable'>
+           
+            <div class='card-image'>
+                <img src='assets/Weresickofhandshake.png'>
+                    </div>
+                <div class='card-content'>
+                <header>Graphic Design</header>
+                </div> 
+                
+            </div>
+            </div> 
+           
+            <div class="col s4">
+                  <div class='card hoverable'>
+           
+            <div class='card-image'>
+                <img src='assets/Weresickofhandshake.png'>
+                    </div>
+                <div class='card-content'>
+                <header>Code Samples</header>
+                </div> 
+                
+            </div>  
+            </div>
+            
+            <div class="col s4">
+                    <div class='card hoverable'>
+           
+            <div class='card-image'>
+                <img src='assets/WTCsky.gif'>
+                    </div>
+                <div class='card-content'>
+                <header>Digital Art & Photography</header>
+                </div> 
+                
+            </div>
+            </div>
+            
         </div>
     </div>
 </div> 
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+     <img src="assets/SeanPatrickCV2017.png" width="100%">
+    </div>
+    
+  </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src=js/materialize.js></script>
     <script>
     $(document).ready(function(){$('.parallax').parallax();});
+     $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+
     </script>
 </body>    
 </html>
